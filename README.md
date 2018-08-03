@@ -1,2 +1,2 @@
 # sage2_earth
-A sample Three.js app for SAGE2.
+Sample earth app using Three.js
