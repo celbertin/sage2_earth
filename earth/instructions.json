@@ -1,0 +1,17 @@
+{
+	"main_script": "earth.js",
+	"icon": "earth.png",
+	"width": 400,
+	"height": 400,
+	"animation": true,
+	"dependencies": [
+		"scripts/three.min.js",
+		"scripts/OrbitControls.js"
+	],
+	"title": "Three.js Earth app",
+	"version": "1.0.0",
+	"description": "Sample earth app using Three.js",
+	"keywords": [ "three", "3d", "animation" ],
+	"author": "Celeste Bertin <celeste.bertin@inria.cl>",
+	"license": "SAGE2-Software-License"
+}
