@@ -64,13 +64,15 @@ var earth = SAGE2_App.extend({
 		this.earthMesh.position.copy(position);
 		//this.earthMesh.scale.copy(scale);
 
-		//setup texture and bumpmap (for mountains and such)
-		this.material.map = THREE.ImageUtils.loadTexture(this.resrcPath + 'images/earthmap.jpg');
-		this.material.bumpMap    = THREE.ImageUtils.loadTexture(this.resrcPath + 'images/earthbump.jpg');
-		this.material.bumpScale = 0.05;
+		//setup texture
+		this.material.map = THREE.ImageUtils.loadTexture(this.resrcPath + 'images/NE2_ps_flat.jpg');
+
+		//setup bumpmap (for mountains and such) works with earthmap.jpg
+		//this.material.bumpMap    = THREE.ImageUtils.loadTexture(this.resrcPath + 'images/earthbump.jpg');
+		//this.material.bumpScale = 0.05;
 
 		/*
-		//setup specular map to make the ocean reflect light
+		//setup specular map to make the ocean reflect light works with earthmap.jpg
 		this.material.specularMap    = THREE.ImageUtils.loadTexture(this.resrcPath + 'images/earthspec.jpg');
 		this.material.specular  = new THREE.Color('grey');
 		*/
